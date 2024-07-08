@@ -27,3 +27,16 @@ Gereksinimler
 .NET 6.0 SDK
 Visual Studio veya Visual Studio Code
 MSSQL Server
+
+![Ekran görüntüsü 2024-07-08 114105](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/c6165e12-a505-4cda-b10f-28c2738fe58b)
+![Ekran görüntüsü 2024-07-08 114143](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/893353b6-53fb-4f7a-b4fd-ea68c39a4485)
+![Ekran görüntüsü 2024-07-08 114223](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/feb8f716-0a92-4df4-9808-410defd26357)
+![Ekran görüntüsü 2024-07-08 114301](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/0678de0e-6c7a-4624-aa27-35da49e5310c)
+![Ekran görüntüsü 2024-07-08 114249](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/41412ee4-8abf-4a0b-9f07-884bf12262ae)
+![Ekran görüntüsü 2024-07-08 114351](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/629c3932-cf93-4069-b5db-e7e5af7e5321)
+![Ekran görüntüsü 2024-07-08 114405](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/01fd628d-a602-4074-b669-4fd9ffcd8595)
+![Ekran görüntüsü 2024-07-08 114423](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/0375a360-7d2d-49cb-b03b-d4bff645c119)
+![Ekran görüntüsü 2024-07-08 114438](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/5a3ca2d6-d72f-404e-8523-88a3382c7015)
+![Ekran görüntüsü 2024-07-08 114610](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/d7d1d34b-3d15-4730-9cbc-63b703faacb3)
+![Ekran görüntüsü 2024-07-08 114621](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/238ff78c-5d15-407a-a356-a00961484df4)
+
