@@ -1,4 +1,4 @@
-Festival Yönetim Projesi - ASP.NET MVC
+🎪 Festival Yönetim Projesi - ASP.NET MVC
 Bu proje, ASP.NET MVC kullanılarak geliştirilmiş dinamik admin ve kullanıcı panelli bir festival yönetim projesidir.
 
 Proje Amaçları
