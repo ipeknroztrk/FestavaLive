@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\views\\default\\partialabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\views\\default\\partialabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\member\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\acunmedyafestavalive\\areas\\member\\controllers\\myticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\controllers\\myticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\acunmedyafestavalive\\areas\\member\\controllers\\memberlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\controllers\\memberlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\views\\adminticket\\createticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\views\\adminticket\\createticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\views\\adminticket\\activetickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\views\\adminticket\\activetickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\views\\adminauth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\views\\adminauth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\controllers\\adminticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\controllers\\adminticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\controllers\\adminlayoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\admin\\controllers\\adminauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\controllers\\adminauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\views\\default\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\views\\default\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\views\\default\\partialheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\views\\default\\partialheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\views\\default\\partialhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\views\\default\\partialhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\member\\views\\myticket\\activeticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\views\\myticket\\activeticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\member\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\member\\views\\myticket\\buyticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\views\\myticket\\buyticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\member\\views\\myticket\\myticketlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\views\\myticket\\myticketlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|c:\\users\\ipekn\\onedrive\\masa\u00FCst\u00FC\\acunmedyafestavalive\\acunmedyafestavalive\\areas\\member\\views\\memberlayout\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\member\\views\\memberlayout\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\acunmedyafestavalive\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\acunmedyafestavalive\\areas\\admin\\views\\artist\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE1DD8D1-EC71-45AB-A439-15E1EAE6B60B}|AcunMedyaFestavaLive\\AcunMedyaFestavaLive.csproj|solutionrelative:acunmedyafestavalive\\areas\\admin\\views\\artist\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 177,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartialAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialAbout.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Views\\Default\\PartialAbout.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialAbout.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Views\\Default\\PartialAbout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:38:26.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MemberLayoutController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MemberLayoutController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MemberLayoutController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MemberLayoutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:11:29.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActiveTickets.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\ActiveTickets.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\ActiveTickets.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\ActiveTickets.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\ActiveTickets.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:34:58.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminAuth\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminAuth\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminAuth\\SignIn.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminAuth\\SignIn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:34:57.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyTicketController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MyTicketController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MyTicketController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MyTicketController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\MyTicketController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:15:38.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:28:22.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:34:55.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T19:44:50.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\ArtistController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\ArtistController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\ArtistController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:34:52.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminTicketController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminTicketController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminTicketController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminTicketController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminTicketController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:34:48.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\CreateTicket.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\CreateTicket.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\CreateTicket.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\AdminTicket\\CreateTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T20:06:12.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminLayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminLayoutController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:34:46.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminAuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminAuthController.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminAuthController.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminAuthController.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Controllers\\AdminAuthController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:34:43.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PartialNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialNavbar.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Views\\Default\\PartialNavbar.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialNavbar.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Views\\Default\\PartialNavbar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:30:52.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PartialHeader.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialHeader.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Views\\Default\\PartialHeader.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialHeader.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Views\\Default\\PartialHeader.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:29:27.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PartialHead.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialHead.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Views\\Default\\PartialHead.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Views\\Default\\PartialHead.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Views\\Default\\PartialHead.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:29:24.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ActiveTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\ActiveTicket.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\ActiveTicket.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\ActiveTicket.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\ActiveTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:24:59.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:20:58.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T19:52:07.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BuyTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\BuyTicket.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\BuyTicket.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\BuyTicket.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\BuyTicket.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T19:51:41.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyTicketList.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\MyTicketList.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\MyTicketList.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\MyTicketList.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MyTicket\\MyTicketList.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T19:48:07.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PartialSideBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MemberLayout\\PartialSideBar.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MemberLayout\\PartialSideBar.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Member\\Views\\MemberLayout\\PartialSideBar.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Member\\Views\\MemberLayout\\PartialSideBar.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T19:58:48.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T16:06:55.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Artist\\List.cshtml",
+              "RelativeDocumentMoniker": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Artist\\List.cshtml",
+              "ToolTip": "C:\\Users\\ipekn\\OneDrive\\Masa\u00FCst\u00FC\\AcunMedyaFestavaLive\\AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Artist\\List.cshtml",
+              "RelativeToolTip": "AcunMedyaFestavaLive\\Areas\\Admin\\Views\\Artist\\List.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T15:46:53.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

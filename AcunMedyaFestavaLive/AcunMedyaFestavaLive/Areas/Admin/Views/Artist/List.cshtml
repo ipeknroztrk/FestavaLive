@@ -1,0 +1,124 @@
+﻿@model List<AcunMedyaFestavaLive.Entities.Artist>
+
+@{
+    ViewData["Title"] = "Sanatçı Listesi";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    .table-striped tbody tr:nth-child(odd) {
+        background-color: #e1d3f5; /* Açık mor arka plan */
+    }
+
+    .table-striped tbody tr:nth-child(even) {
+        background-color: white; /* Beyaz arka plan */
+    }
+
+    .btn-outline-primary {
+        color: #007bff; /* Mavi buton metin rengi */
+        border-color: #007bff; /* Kenarlık rengi */
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #007bff; /* Hover üzerindeki mavi */
+            border-color: #007bff; /* Kenarlık rengi */
+            color: white; /* Hover üzerindeki metin rengi */
+        }
+
+        .btn-outline-primary:focus, .btn-outline-primary.focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Odaklandığında gölge efekti */
+        }
+
+        .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+            color: #007bff; /* Devre dışı metin rengi */
+            background-color: transparent; /* Devre dışı arka plan rengi */
+        }
+
+        .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+        .show > .btn-outline-primary.dropdown-toggle {
+            color: white; /* Aktif durumda metin rengi */
+            background-color: #007bff; /* Aktif durumda arka plan rengi */
+            border-color: #007bff; /* Aktif durumda kenarlık rengi */
+        }
+
+    .btn-outline-danger {
+        color: #dc3545; /* Kırmızı silme butonu metin rengi */
+        border-color: #dc3545; /* Kenarlık rengi */
+    }
+
+        .btn-outline-danger:hover {
+            background-color: #dc3545; /* Hover üzerindeki kırmızı */
+            border-color: #dc3545; /* Kenarlık rengi */
+            color: white; /* Hover üzerindeki metin rengi */
+        }
+
+        .btn-outline-danger:focus, .btn-outline-danger.focus {
+            box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); /* Odaklandığında gölge efekti */
+        }
+
+        .btn-outline-danger.disabled, .btn-outline-danger:disabled {
+            color: #dc3545; /* Devre dışı metin rengi */
+            background-color: transparent; /* Devre dışı arka plan rengi */
+        }
+
+        .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active,
+        .show > .btn-outline-danger.dropdown-toggle {
+            color: white; /* Aktif durumda metin rengi */
+            background-color: #dc3545; /* Aktif durumda arka plan rengi */
+            border-color: #dc3545; /* Aktif durumda kenarlık rengi */
+        }
+</style>
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <h4 class="page-title">Sanatçı Listesi</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Sanatçı Resmi</th>
+                                            <th>Sanatçı Adı</th>
+                                            <th>Tarih</th>
+                                            <th>Açıklama</th>
+                                            <th>Detaylı Açıklama</th>
+                                            <th>İşlemler</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var artist in Model)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <img src="@artist.ImageUrl" alt="Sanatçı Resmi" class="rounded-circle" width="50" height="50" />
+                                                </td>
+                                                <td>@artist.NameSurname</td>
+                                                <td>@artist.Date.ToString("dd.MM.yyyy")</td>
+                                                <td>@artist.Description</td>
+                                                <td>@artist.Description2</td>
+                                                <td>
+                                                    <a href="@Url.Action("UpdateArtist", "Artist", new { area = "Admin", id = artist.ArtistId })" class="btn btn-outline-primary">Güncelle</a>
+                                                    <form action="@Url.Action("DeleteArtist", "Artist", new { area = "Admin", id = artist.ArtistId })" method="post" style="display: inline-block;">
+                                                        @Html.AntiForgeryToken()
+                                                        <button type="submit" class="btn btn-outline-danger" onclick="return confirm('Bu sanatçıyı silmek istediğinizden emin misiniz?')">Sil</button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                                <p>
+                                    <a href="@Url.Action("CreateArtist", "Artist", new { area = "Admin" })" class="btn btn-outline-primary">Yeni Sanatçı Ekle</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

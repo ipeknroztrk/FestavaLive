@@ -1,0 +1,118 @@
+﻿@model List<AcunMedyaFestavaLive.Entities.User>
+@{
+    ViewBag.Title = "UserList";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<style>
+    .table-striped tbody tr:nth-child(odd) {
+        background-color: #e1d3f5; /* Açık mor arka plan */
+    }
+
+    .table-striped tbody tr:nth-child(even) {
+        background-color: white; /* Beyaz arka plan */
+    }
+
+    .btn-outline-primary {
+        color: #007bff; /* Mavi buton metin rengi */
+        border-color: #007bff; /* Kenarlık rengi */
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #007bff; /* Hover üzerindeki mavi */
+            border-color: #007bff; /* Kenarlık rengi */
+            color: white; /* Hover üzerindeki metin rengi */
+        }
+
+        .btn-outline-primary:focus, .btn-outline-primary.focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Odaklandığında gölge efekti */
+        }
+
+        .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+            color: #007bff; /* Devre dışı metin rengi */
+            background-color: transparent; /* Devre dışı arka plan rengi */
+        }
+
+        .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+        .show > .btn-outline-primary.dropdown-toggle {
+            color: white; /* Aktif durumda metin rengi */
+            background-color: #007bff; /* Aktif durumda arka plan rengi */
+            border-color: #007bff; /* Aktif durumda kenarlık rengi */
+        }
+
+    .btn-outline-danger {
+        color: #dc3545; /* Kırmızı silme butonu metin rengi */
+        border-color: #dc3545; /* Kenarlık rengi */
+    }
+
+        .btn-outline-danger:hover {
+            background-color: #dc3545; /* Hover üzerindeki kırmızı */
+            border-color: #dc3545; /* Kenarlık rengi */
+            color: white; /* Hover üzerindeki metin rengi */
+        }
+
+        .btn-outline-danger:focus, .btn-outline-danger.focus {
+            box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5); /* Odaklandığında gölge efekti */
+        }
+
+        .btn-outline-danger.disabled, .btn-outline-danger:disabled {
+            color: #dc3545; /* Devre dışı metin rengi */
+            background-color: transparent; /* Devre dışı arka plan rengi */
+        }
+
+        .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active,
+        .show > .btn-outline-danger.dropdown-toggle {
+            color: white; /* Aktif durumda metin rengi */
+            background-color: #dc3545; /* Aktif durumda arka plan rengi */
+            border-color: #dc3545; /* Aktif durumda kenarlık rengi */
+        }
+</style>
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <h4 class="page-title">Kullanıcı Listesi</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Kullanıcı Resmi</th>
+                                            <th>Ad</th>
+                                            <th>Soyad</th>
+                                            <th>İşlemler</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var user in Model)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <img src="@user.ImageUrl" alt="Kullanıcı Resmi" class="rounded-circle" width="50" height="50" />
+                                                </td>
+                                                <td>@user.Name</td>
+                                                <td>@user.Surname</td>
+                                                <td>
+                                                    <form action="@Url.Action("DeleteUser", "User", new { area = "Admin", id = user.UserId })" method="post" style="display: inline-block;">
+                                                        @Html.AntiForgeryToken()
+                                                        <button type="submit" class="btn btn-outline-info" onclick="return confirm('Bu kullanıcıyı silmek istediğinizden emin misiniz?')">Sil</button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

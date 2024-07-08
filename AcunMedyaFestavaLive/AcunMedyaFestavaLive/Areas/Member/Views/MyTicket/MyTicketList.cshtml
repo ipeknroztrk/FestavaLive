@@ -1,0 +1,55 @@
+﻿@model List<AcunMedyaFestavaLive.Entities.Ticket>
+@{
+    ViewBag.Title = "Satın Aldığınız Biletler";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            
+                            <div class="container">
+                                <h2>Satın Aldığınız Biletler</h2>
+
+                                @if (Model != null && Model.Any())
+                                {
+                                    <div class="row">
+                                        @foreach (var ticket in Model)
+                                        {
+                                            <div class="col-md-6">
+                                                <div class="ticket">
+                                                    <h3>@ticket.Title</h3>
+                                                    <p>@ticket.Description</p>
+                                                    <p>Fiyat: @ticket.Price</p>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                }
+                                else
+                                {
+                                    <p>Satın alınan bilet bulunamadı.</p>
+                                }
+
+                                <a href="@Url.Action("Logout", "User")">Çıkış Yap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .ticket {
+        background-color: #ddd7ec; /* İstediğiniz mor rengi buraya ekleyin */
+        padding: 20px;
+        margin: 10px;
+        border-radius: 8px;
+    }
+</style>

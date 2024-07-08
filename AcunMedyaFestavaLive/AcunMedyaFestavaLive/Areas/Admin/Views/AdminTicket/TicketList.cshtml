@@ -1,0 +1,72 @@
+﻿@model IEnumerable<AcunMedyaFestavaLive.Entities.Ticket>
+
+@{
+    ViewData["Title"] = "TicketList";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Bilet İşlemleri</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-sub">
+                                Bilet detayı, silme ve güncelleme işlemlerini buradan yapabilirsiniz.
+                            </div>
+                            <table class="table m-t-12">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Bilet Türü</th>
+                                        <th>Bilet Fiyatı</th>
+                                        <th>Sil</th>
+                                        <th>Güncelle</th>
+                                        <th>Detaylar</th>
+                                        <th>Durumu</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.TicketId</td>
+                                            <td>@item.Title</td>
+                                            <td>@item.Price</td>
+                                            <td>
+                                                <a href="@Url.Action("DeleteTicket", "AdminTicket", new { area = "Admin", id = item.TicketId })" class="btn btn-purple">Sil</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("UpdateTicket", "AdminTicket", new { area = "Admin", id = item.TicketId })" class="btn btn-indigo">Güncelle</a>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("TicketDetails", "AdminTicket", new { area = "Admin", id = item.TicketId })" class="btn btn-deep-purple">Detaylar</a>
+                                            </td>
+                                            <td>
+                                                @if (item.Status)
+                                                {
+                                                    <a href="@Url.Action("DeactivateTicket", "AdminTicket", new { area = "Admin", id = item.TicketId })" class="btn btn-outline-danger">Pasif Yap</a>
+                                                }
+                                                else
+                                                {
+                                                    <a href="@Url.Action("ActivateTicket", "AdminTicket", new { area = "Admin", id = item.TicketId })" class="btn btn-outline-info">Aktif Yap</a>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <a href="@Url.Action("CreateTicket", "AdminTicket", new { area = "Admin" })" class="btn btn-teal">Yeni Bilet Girişi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

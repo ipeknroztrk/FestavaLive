@@ -1,0 +1,51 @@
+﻿@model AcunMedyaFestavaLive.Entities.Artist
+@{
+    ViewData["Title"] = "Sanatçı Güncelle";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Sanatçı Güncelle</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-sub">
+                                Sanatçı bilgilerini güncelleyebilirsiniz.
+                            </div>
+                            <form method="post" enctype="multipart/form-data">
+                                @Html.HiddenFor(x => x.ArtistId)
+                                <div class="form-group">
+                                    <label>Adı</label>
+                                    @Html.TextBoxFor(x => x.NameSurname, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Doğum Tarihi</label>
+                                    @Html.TextBoxFor(x => x.Date, new { @class = "form-control", type = "date" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Açıklama</label>
+                                    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Fotoğraf</label>
+                                    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control", type = "file" })
+                                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                                    {
+                                        <img src="@Model.ImageUrl" class="img-thumbnail mt-2" style="max-width: 200px;" />
+                                    }
+                                </div>
+                                <button type="submit" class="btn btn-purple">Güncelle</button>
+                                <a href="@Url.Action("List", "Artist", new { area = "Admin" })" class="btn btn-secondary">Geri Dön</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

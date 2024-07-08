@@ -1,0 +1,45 @@
+﻿@model AcunMedyaFestavaLive.Entities.Artist
+@{
+    ViewData["Title"] = "Yeni Sanatçı Ekle";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Yeni Sanatçı Ekle</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-sub">
+                                Sanatçı ekleme işlemlerini buradan yapabilirsiniz.
+                            </div>
+                            <form method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <label>Adı</label>
+                                    @Html.TextBoxFor(x => x.NameSurname, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Doğum Tarihi</label>
+                                    @Html.TextBoxFor(x => x.Date, new { @class = "form-control", type = "date" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Açıklama</label>
+                                    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label>Fotoğraf</label>
+                                    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control", type = "file" })
+                                </div>
+                                <button type="submit" class="btn btn-purple">Ekle</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

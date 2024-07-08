@@ -1,0 +1,46 @@
+﻿<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a href="@Url.Action("SignIn", "AdminAuth", new { area = "Admin" })" class="navbar-brand">
+            Festava Live
+        </a>
+
+
+        <a href="@Url.Action("Login", "User", new { area = "Member" })" class="btn custom-btn d-lg-none ms-auto me-4">Bilet Al</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_1">AnaSayfa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_2">Hakkımızda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_3">Sanatçılar</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_4">Takvim</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_5">Biletler</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link click-scroll" href="#section_6">İletişim</a>
+                </li>
+            </ul>
+
+            <a href="@Url.Action("Login", "User", new { area = "Member" })" class="btn custom-btn d-lg-block d-none">Bilet Al</a>
+
+        </div>
+    </div>
+</nav>

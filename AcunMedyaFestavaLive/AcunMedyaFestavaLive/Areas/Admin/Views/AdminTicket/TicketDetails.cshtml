@@ -1,0 +1,52 @@
+﻿@model AcunMedyaFestavaLive.Entities.Ticket
+
+@{
+    ViewData["Title"] = "Ticket Detayları";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="main-panel">
+    <div class="content">
+        <div class="container">
+            
+            <h3>Bilet Detayları</h3>
+            <div class="card shadow-sm" style="border-radius: 15px; background-color: #ffffff;">
+                <div class="card-header bg-purple text-white" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                    <h5  class="card-subtitle mb-2 text-muted">@Model.Title</h5>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-subtitle mb-2 text-muted">Bilet Fiyatı: @Model.Price</h6>
+                    <p class="card-text">@Model.Description</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">● @Model.TicketProperty1</li>
+                        <li class="list-group-item">● @Model.TicketProperty2</li>
+                        <li class="list-group-item">● @Model.TicketProperty3</li>
+                        <li class="list-group-item">● @Model.TicketProperty4</li>
+                        <li class="list-group-item">● @Model.TicketProperty5</li>
+                        <li class="list-group-item">● @Model.TicketProperty6</li>
+                    </ul>
+                    <a href="@Url.Action("TicketList", "AdminTicket", new { area = "Admin" })" class="btn btn-purple mt-3">Geri Dön</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bg-purple {
+        background-color: #6a1b9a;
+    }
+
+    .btn-purple {
+        background-color: #6a1b9a;
+        color: white;
+    }
+
+    .form-control {
+        margin-bottom: 5px;
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: #6a1b9a;
+    }
+</style>

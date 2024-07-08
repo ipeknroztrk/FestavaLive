@@ -1,0 +1,89 @@
+﻿@model List<AcunMedyaFestavaLive.Entities.Ticket>
+@{
+    ViewBag.Title = "Bilet Satın Al";
+    Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+<style>
+    .ticket-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .ticket {
+        flex: 0 0 calc(50% - 10px);
+        border: 2px solid #800080;
+        background-color: #dda0dd;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .ticket h3 {
+            margin-top: 0;
+            color: #4b0082;
+        }
+
+        .ticket p {
+            margin-bottom: 10px;
+        }
+
+        .ticket form {
+            margin-top: 10px;
+        }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+</style>
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <div class="card-sub">
+                                Bilet satın alma ilgili işlemleri buradan yapabilirsiniz.
+                            </div>
+                            <div class="container">
+                                <h4>Bilet Satın Al</h4>
+
+                                @if (ViewBag.Message != null)
+                                {
+                                    <p>@ViewBag.Message</p>
+                                }
+
+                                @if (Model != null && Model.Any())
+                                {
+                                    <div class="ticket-container">
+                                        @foreach (var ticket in Model)
+                                        {
+                                            <div class="ticket">
+                                                <h3>@ticket.Title</h3>
+                                                <p>@ticket.Description</p>
+                                                <p>Fiyat: @ticket.Price</p>
+                                                @using (Html.BeginForm("BuyTicket", "MyTicket", FormMethod.Post))
+                                                {
+                                                    @Html.Hidden("ticketId", ticket.TicketId)
+
+                                                    <label for="quantity">Adet:</label>
+                                                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                                                    <button type="submit">Satın Al</button>
+                                                }
+                                            </div>
+                                        }
+                                    </div>
+                                }
+                                else
+                                {
+                                    <p>Bilet bulunamadı.</p>
+                                }
+
+                                <a href="@Url.Action("Logout", "User")">Çıkış Yap</a>
+                            </div>

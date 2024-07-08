@@ -1,0 +1,94 @@
+﻿
+@model AcunMedyaFestavaLive.Entities.Ticket
+
+@{
+    ViewData["Title"] = "TicketList";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Bilet Güncelleme</div>
+                        </div>
+                        <div class="card-body">
+                           
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="card shadow-sm" style="border-radius: 15px; background-color: #ffffff;">
+                                        <div class="card-header bg-purple text-white" style="border-top-left-radius: 15px; border-top-right-radius: 15px; background-color: #6a1b9a;">
+                                            <h5 class="mb-0">Bilet Güncelle </h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <form action="@Url.Action("UpdateTicket", "AdminTicket", new { area = "Admin", id = Model.TicketId })" method="post">
+
+                                                @Html.HiddenFor(x => x.TicketId) <!-- Bu satır id'nin gizli olarak formda gönderilmesini sağlar -->
+                                                <div class="form-group">
+                                                    <label>Bilet Başlığı</label>
+                                                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Bilet Açıklaması</label>
+                                                    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Bilet Fiyatı</label>
+                                                    @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Nitelik 1</label>
+                                                    @Html.TextBoxFor(x => x.TicketProperty1, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Nitelik 2</label>
+                                                    @Html.TextBoxFor(x => x.TicketProperty2, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Nitelik 3</label>
+                                                    @Html.TextBoxFor(x => x.TicketProperty3, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Nitelik 4</label>
+                                                    @Html.TextBoxFor(x => x.TicketProperty4, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Nitelik 5</label>
+                                                    @Html.TextBoxFor(x => x.TicketProperty5, new { @class = "form-control" })
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Nitelik 6</label>
+                                                    @Html.TextBoxFor(x => x.TicketProperty6, new { @class = "form-control" })
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Bileti Güncelle</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <style>
+                    .bg-purple {
+                        background-color: #6a1b9a;
+                    }
+
+                    .btn-purple {
+                        background-color: #6a1b9a;
+                        color: white;
+                    }
+
+                    .form-control {
+                        margin-bottom: 5px;
+                    }
+
+                    .form-label {
+                        font-weight: bold;
+                        color: #6a1b9a;
+                    }
+                </style>
